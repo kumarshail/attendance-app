@@ -54,7 +54,7 @@ function commonService() {
         handleUserLogin: function() {
             var common = commonService();
             if (!common.getLoginFromStorage()) {
-                common.goToPage('attendance/login_page.html');
+                common.goToPage('attendance-app/login_page.html');
             }
         }
     }
