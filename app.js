@@ -196,7 +196,7 @@ function attendance_form() {
         $.when(http.post('attendance', data)).then(
             function(response) {
                 common.display(response);
-                common.goToPage('attendance/attendance_list.html');
+                common.goToPage('attendance-app/attendance_list.html');
             }
         )
     }
