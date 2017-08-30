@@ -1,0 +1,91 @@
+label {font-family: sans-serif; font-size: 25px;}
+h1 {color:darkolivegreen; 
+    text-align: center; 
+    text-decoration: dotted;
+    text-shadow: 1px 1px grey;
+} 
+input[type="text"], select { 
+    width:100%; 
+    padding: 12px 20px; 
+    margin: 8px 0; 
+    display: inline-block; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+}
+input[type="password"], select { 
+    width:100%; 
+    padding: 12px 20px; 
+    margin: 8px 0; 
+    display: inline-block; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+}
+input[type="submit"] { width: 25%; 
+    background-color: #4caf50; 
+    color: white; 
+    padding: 14px 20px; 
+    margin: 8px 0;
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer;
+}
+
+#login {
+    color: blue;
+    font-size: 14px;
+}
+label { font-family: sans-serif; font-size: 20px}
+h2 { font-family: 'Times New Roman', Times, serif; 
+    font-size: 30px; 
+    color: black; 
+    text-align: center; 
+    text-decoration: dotted; 
+    text-shadow: 1px 1px grey;
+}
+input[type="date"], 
+select{ padding: 12px 20px; 
+    width: 100%; 
+    margin: 8px 0; 
+    display: inline-block;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+}
+input[type="time"], 
+select{ padding: 12px 20px; 
+    width: 100%; 
+    margin: 8px 0; 
+    display: inline-block;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+}
+input[type="submit"], 
+select{ width: 50%; background-color: #4caf50; 
+    color: white; 
+    padding: 14px 20px; 
+    margin: 8px 0;
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer;
+}
+
+.signup-wrapper {
+    color: olivedrab
+    margin-top: 50px;
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+.attendance-history {
+    min-height: 60px;
+}
+
+div { background-color: rgba(28, 103, 49, 0.18)!important; 
+    border-radius: 5px; 
+    padding: 20px;
+}
