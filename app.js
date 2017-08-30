@@ -21,7 +21,7 @@ $(document).ready(function() {
         var common = commonService();
         common.removeLoginFromStorage(true);
         common.removeCurrentUser();
-        common.goToPage('attendance');
+        common.goToPage('attendance-app');
     });
 });
 
