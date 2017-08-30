@@ -128,7 +128,7 @@ function login_page() {
                 common.setCurrentUser(email);
                 userNotFound = false;
                 common.display('Success!');
-                common.goToPage('attendance/attendance_form.html');
+                common.goToPage('attendance-app/attendance_form.html');
             }
         }
         if (userNotFound) {
@@ -163,7 +163,7 @@ function signup_page() {
             function (response) {
                 var common = commonService();
                 common.display(response);
-                common.goToPage('attendance/login_page.html');
+                common.goToPage('attendance-app/login_page.html');
             }
         )
     }
